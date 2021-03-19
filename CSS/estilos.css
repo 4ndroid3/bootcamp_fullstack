@@ -1,0 +1,30 @@
+/* estilos por etiqueta */
+
+nav{
+    color:green;
+}
+
+/* estilos por clase */
+
+.nombreclase {
+    color: pink;
+}
+
+/* estilos por id */
+
+#nombreid {
+    color: purple;
+}
+
+/* estilos anidados */
+
+nav.ñoño h2{
+    color: blueviolet;
+}
+
+/* pseudoclases: busca en el dom cuando haya un section al 
+primer hijo le pone el atributo */
+
+section :first-child {
+    color: dodgerblue;
+}
