@@ -25,6 +25,31 @@ nav.ñoño h2{
 /* pseudoclases: busca en el dom cuando haya un section al 
 primer hijo le pone el atributo */
 
-section :first-child {
+/* section :first-child {
     color: dodgerblue;
+} */
+
+.caja {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border: 10px dashed gold; /* solid dotted dashed */
+    border-width: 5px; /* ancho del borde */
+    border-radius: 35%; /* al 100% crea un circulo */
+    box-shadow: 10px 10px 5px grey; /* crea una sombra. 3er parametro da el blur */
+    box-sizing: border-box; /* Si hay bordes los agrega hacia adentro */
+}
+
+.encabezado {
+    padding: 20px;
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.caja p {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 30px;
+
 }
